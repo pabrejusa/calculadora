@@ -1,0 +1,121 @@
+
+.container-grid{
+    display: grid;
+    width: 100%;
+    height: 30vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-areas: 
+    "limpiar limpiar limpiar sumar"
+    "siete ocho nueve restar"
+    "cuatro cinco seis multiplicar"
+    "uno dos tres dividir"
+    "punto cero igual igual";
+    border-radius: 15px;
+    margin-top: 5px;
+}
+button{
+    background-color: rgb(62, 180, 141);
+    border-radius: 15px;
+    border-color: rgb(29, 146, 29);
+    font-size:large;
+}
+.btnLimpiar{
+    grid-area: limpiar;
+    background-color: rgb(62, 180, 141);
+    border-radius: 15px;
+    border-color: rgb(29, 146, 29);
+    font-size:large;
+}
+
+.btnSumar{
+    grid-area: sumar;
+}
+.btn7{
+    grid-area: siete;
+}
+.btn8{
+    grid-area: ocho;
+}
+.btn9{
+    grid-area: nueve;
+}
+.btnRestar{
+    grid-area: restar;
+}
+.btn4{
+    grid-area: cuatro;
+}
+.btn5{
+    grid-area: cinco;
+}
+.btn6{
+    grid-area: seis;
+}
+.btnMultiplicar{
+    grid-area: multiplicar;
+}
+.btn1{
+    grid-area: uno;
+}
+.btn2{
+    grid-area: dos;
+}
+.btn3{
+    grid-area: tres;
+}
+.btnDividir{
+    grid-area: dividir;
+}
+.btnPunto{
+    grid-area: punto;
+}
+.btn0{
+    grid-area: cero;
+}
+.btnIgual{
+    grid-area: igual;
+    background-color: rgb(62, 180, 141);
+    border-radius: 15px;
+    border-color: rgb(29, 146, 29);
+    font-size:large;
+}
+
+*{
+    box-sizing: border-box;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: rgb(121, 48, 216);
+   
+}
+h1{
+    color:rgb(127, 208, 255);
+}
+main{
+    width: 30%;
+    min-width: 200px;
+    margin: 0 auto;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+#contenedor-pantalla{
+    width: 100%;
+    background-color: rgb(62, 180, 141);
+    padding: 0 5px;
+}
+
+#pantalla{
+    display: block;
+    width: 100%;
+    height: 10vh;
+    border: none;
+    text-align: right;
+    background-color: rgb(62, 180, 141);
+    font-size: xx-large;
+}
